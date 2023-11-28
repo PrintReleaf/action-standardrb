@@ -1,4 +1,4 @@
-FROM ruby:latest
+FROM ruby:3.2-bullseye
 
 ENV REVIEWDOG_VERSION v0.14.2
 
