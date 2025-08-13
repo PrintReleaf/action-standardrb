@@ -15,14 +15,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check out code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v5
       - name: standardrb
-        uses: PrintReleaf/action-standardrb@v0.0.7
+        uses: PrintReleaf/action-standardrb@v1
         with:
           github_token: ${{ secrets.github_token }}
           reporter: github-pr-review # Default is github-pr-check
           rubocop_flags: --format progress
-          standard_version: 1.12.1
+          standard_version: 1.50.0
 ```
 
 ## Note
