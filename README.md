@@ -22,7 +22,7 @@ jobs:
           github_token: ${{ secrets.github_token }}
           reporter: github-pr-review # Default is github-pr-check
           rubocop_flags: --format progress
-          standard_version: 1.31.0
+          standard_version: 1.50.0
 ```
 
 ## Note
